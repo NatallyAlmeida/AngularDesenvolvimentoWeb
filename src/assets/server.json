@@ -1,0 +1,28 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "endereco": "Rua das Flores, 123",
+      "cep": "12345-678",
+      "uf": "SP",
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "nome": "Maria Oliveira",
+      "endereco": "Avenida Central, 456",
+      "cep": "23456-789",
+      "uf": "RJ",
+      "ativo": false
+    },
+    {
+      "id": 3,
+      "nome": "Carlos Santos",
+      "endereco": "Praça da Liberdade, 789",
+      "cep": "34567-890",
+      "uf": "MG",
+      "ativo": true
+    }
+  ]
+}

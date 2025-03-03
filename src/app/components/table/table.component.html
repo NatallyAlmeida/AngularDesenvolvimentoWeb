@@ -1,0 +1,27 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Endereco</th>
+      <th scope="col">CEP</th>
+      <th scope="col">UF</th>
+      <th scope="col">Ativo</th>
+      <th scope="col">Acaoes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pessoa of pessoas">
+      <th scope="row">{{ pessoa.id }}</th>
+      <td>{{ pessoa.nome }}</td>
+      <td>{{ pessoa.endereco }}</td>
+      <td>{{ pessoa.cep }}</td>
+      <td>{{ pessoa.uf }}</td>
+      <td>{{ pessoa.ativo }}</td>
+      <td>
+        <button type="button" class="btn btn-primary btn-sm" (click)="editarPessoas()">Editar</button>
+        <button type="button" class="btn btn-danger btn-sm">Excluir</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
